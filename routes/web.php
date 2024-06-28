@@ -13,16 +13,7 @@ use App\Http\Controllers\PostController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', [PostController::class, 'index']);
-<<<<<<< HEAD
-<<<<<<< HEAD
-Route::get('posts.{post}', [PostController::class ,'show']);
-=======
-Route::get('/posts/{post}',[PostController::class ,'show']);
->>>>>>> origin/master
-=======
 Route::get('posts/create', [PostController::class ,'create']);
 Route::get('/posts/{post}',[PostController::class ,'show']);
 Route::post('/posts', [PostController::class, 'store']);
->>>>>>> origin/master
+
