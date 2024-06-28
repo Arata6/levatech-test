@@ -15,4 +15,8 @@ use App\Http\Controllers\PostController;
 */
 
 Route::get('/', [PostController::class, 'index']);
+<<<<<<< HEAD
 Route::get('posts.{post}', [PostController::class ,'show']);
+=======
+Route::get('/posts/{post}',[PostController::class ,'show']);
+>>>>>>> origin/master
