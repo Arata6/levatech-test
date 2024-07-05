@@ -13,6 +13,7 @@
         <h1 class ='title'>
             {{ $post ->title}}
         </h1>
+        <a href="">{{ $post->category->name }}</a>
         <div class ="conent">
                 <div class="content_post">
                     <h3>本文</h3>
